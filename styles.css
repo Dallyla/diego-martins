@@ -1,0 +1,59 @@
+body {
+    background-color: #000000;
+}
+
+.flex-container {
+    display: flex;
+    grid-template-columns: 800px 800px;
+    justify-content: center;
+}
+
+.pre-save{
+    color: #DB9B18;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid 2px #B63C1B;
+    border-radius: 40px;
+    width: 150px;
+    padding: 6px;
+}
+
+.pre-save:hover {
+    color: #B63C1B;
+}
+
+.btn-wrapper {
+    width: 160px; 
+    height: 1000px; 
+    background-color: #FFFF; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    color: #B63C1B;
+    font-size: 36px;
+    padding: 0px;
+}
+
+li {
+    margin: 50px 0px;
+}
+
+li:hover {
+    color: #DB9B18;
+    cursor: pointer;
+}
+
+a {
+    color: #B63C1B;
+}
+
+a:hover {    
+    color: #DB9B18;
+    cursor: pointer;
+}
